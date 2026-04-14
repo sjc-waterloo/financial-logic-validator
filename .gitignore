@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local reports (optional: keep these untracked so your repo stays clean)
+audit_report.md
+
+# Operating System files
+.DS_Store
+Thumbs.db
