@@ -1,0 +1,7 @@
+{
+  "tech_sector": {
+    "max_gross_margin": 0.90,
+    "max_terminal_growth": 0.04,
+    "min_tax_rate": 0.15
+  }
+}

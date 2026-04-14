@@ -1,0 +1,19 @@
+{
+  "ticker": "TECH-X",
+  "period": "FY2025",
+  "income_statement": {
+    "revenue": 5000000,
+    "ebitda": 1200000,
+    "net_income": 800000
+  },
+  "balance_sheet": {
+    "previous_retained_earnings": 2000000,
+    "current_retained_earnings": 2100000,
+    "total_assets": 10000000,
+    "total_liabilities": 12000000
+  },
+  "assumptions": {
+    "terminal_growth": 0.12,
+    "wacc": 0.08
+  }
+}
