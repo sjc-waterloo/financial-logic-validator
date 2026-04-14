@@ -1,10 +1,11 @@
-from src.auditor import FinancialAuditor
+﻿from src.auditor import FinancialAuditor
 
 if __name__ == "__main__":
-    auditor = FinancialAuditor('mock_ai_output.json', 'industry_benchmarks.json')
+    # Updated paths to reflect the new data/ directory structure
+    auditor = FinancialAuditor('data/mock_ai_output.json', 'data/industry_benchmarks.json')
     auditor.run()
     
-    # New: Summary Console Output
+    # Summary Console Output
     stats = auditor.get_summary_stats()
     print("\n" + "="*30)
     print(f"AUDIT SUMMARY FOR {stats['ticker']}")
